@@ -27,6 +27,9 @@
     font-size: 34px;
     text-align: left;
 }
+.title_best {
+    margin-bottom: 40px!important;
+}
 .block-1 .button-m{
     margin: 0;
 }
@@ -234,6 +237,30 @@ img.several_dolls {
 .block-8{
     background: url(../img/foot-bg.jpg) 50% 100% no-repeat #fff;
 }
+.block-8__phone {
+    font-size: 26px;
+    float: right;
+    color: #000;
+    font-style: bold;
+    margin-bottom: 3px;
+    display: block;
+}
+.phones {
+    min-height: 28px;
+    
+}
+
+.footer__text {
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    margin-top: 5px;
+    width: 100%;
+    
+    margin-bottom: 5px;
+    display: block;
+}
+
 .block-0{
     background: url(../img/foot-bg.jpg) 50% 100% no-repeat #fff;
 }
