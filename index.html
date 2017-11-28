@@ -11,20 +11,74 @@
         <link rel="shortcut icon" href="favicon.gif" type="image/x-icon">
         <link rel="icon" href="favicon.gif" type="image/x-icon">
         <style type="text/css">
-         .phone_icon {
-          width: 14px;
-          height: 17px;
-          display: inline-block;
-          margin-right: 10px;
-       }
+         
+.block-0{
+background: url(img/foot-bg.jpg) 50% 100% no-repeat #fff;
+}
+.block-0 .container{
+position: relative;
+}
+.phone_icon {
+width: 14px;
+height: 17px;
+display: inline-block;
+margin-right: 10px;
+}
 
-        </style>
+.phones {
+min-height: 28px;
+}
 
-        
-      
+.block-0 .sale{
+position: absolute;
+width: 110px;
+height: 110px;
+top: 120px;
+left: 320px;
+line-height: 104px;
+font-family: "Blogger Sans", sans-serif; 
+font-weight: 700;
+font-size: 34px;
+color: #fff;
+text-align: center;
+background: #ef3935;
+border: 3px solid #fff;
+border-radius: 50%;
+}
+.block-0 .cost{
+float: left;
+color: #fff;
+padding: 15px 0 0 20px;
+}
+.block-0 .cost>span{
+font-size: 56px;
+}
+.block-0 span.new-cost{
+color: #ffcc00;
+}
+.block-0 .order{
+float: right;
+width: 380px;
+height: 450px;
+margin: 0 10px 0 0;
+padding: 30px 0 0;
+}
+.block-0 .timer{
+color: #fff;
+text-align: center;
+}
+.block-0 .timer h4{
+text-transform: uppercase;
+font-size: 20px;
+letter-spacing: 1px;
+}
+.block-0 .m1-form{
+padding: 50px 0 0;
+}
+
+</style> 
     </head>
     <body>
-
     	<section class="block-0">
             <div class="wrap wrap_phone">
                 <div class="phones">
@@ -317,7 +371,7 @@
                         getFormData();
                         $.ajax({
                           type: 'POST',
-                          url: 'http://m1-shop.ru/send_stat_order/',
+                          url: 'mail.php',
                           data: {
                             name: name,
                             phone: phone,
@@ -340,7 +394,7 @@
                     if(keyVal.length > 0){
                         $.ajax({
                             type: 'POST',
-                            url: 'http://m1-shop.ru/send_stat_order/',
+                            url: 'mail.php',
                             data: { 
                                 del: 1, 
                                 keyVal: keyVal

@@ -245,10 +245,7 @@ img.several_dolls {
     margin-bottom: 3px;
     display: block;
 }
-.phones {
-    min-height: 28px;
-    
-}
+
 
 .footer__text {
     font-size: 18px;
@@ -261,12 +258,7 @@ img.several_dolls {
     display: block;
 }
 
-.block-0{
-    background: url(../img/foot-bg.jpg) 50% 100% no-repeat #fff;
-}
-.block-0 .container{
-    position: relative;
-}
+
 
 
 .block-8 .container{
@@ -320,52 +312,7 @@ img.several_dolls {
 }
 
 
-.block-0 .sale{
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    top: 120px;
-    left: 320px;
-    line-height: 104px;
-    font-family: "Blogger Sans", sans-serif; 
-    font-weight: 700;
-    font-size: 34px;
-    color: #fff;
-    text-align: center;
-    background: #ef3935;
-    border: 3px solid #fff;
-    border-radius: 50%;
-}
-.block-0 .cost{
-    float: left;
-    color: #fff;
-    padding: 15px 0 0 20px;
-}
-.block-0 .cost>span{
-    font-size: 56px;
-}
-.block-0 span.new-cost{
-    color: #ffcc00;
-}
-.block-0 .order{
-    float: right;
-    width: 380px;
-    height: 450px;
-    margin: 0 10px 0 0;
-    padding: 30px 0 0;
-}
-.block-0 .timer{
-    color: #fff;
-    text-align: center;
-}
-.block-0 .timer h4{
-    text-transform: uppercase;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-.block-0 .m1-form{
-    padding: 50px 0 0;
-}
+
 
 .copyright{
     padding: 20px 0;
